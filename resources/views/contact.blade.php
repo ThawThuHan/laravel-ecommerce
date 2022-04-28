@@ -37,7 +37,7 @@
                         required
                     </div>
                 </div>
-                <button type="submit" class="btn btn-info me-3">Send Message</button>
+                <button type="submit" class="btn btn-success me-3">Send Message</button>
             </form>
         </div>
         <div class="col-md-6 col-12">

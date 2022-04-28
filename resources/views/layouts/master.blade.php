@@ -12,6 +12,8 @@
 <body>
     @include('layouts.header')
     @yield('content')
+
+    @include('layouts.footer')
     
     <script src="/js/bootstrap.bundle.min.js"></script>
     @yield('script')

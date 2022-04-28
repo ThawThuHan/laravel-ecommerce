@@ -15,8 +15,8 @@
                     <li class="nav-item">
                         <a href="/home" class="nav-link text-success">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link text-success">Categories</a>
+                    <li class="nav-item dropdown">
+                        <x-category-dropdown />
                     </li>
                     <li class="nav-item">
                         <a href="/about" class="nav-link text-success">About</a>

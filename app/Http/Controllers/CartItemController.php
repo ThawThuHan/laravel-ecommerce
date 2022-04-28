@@ -12,7 +12,7 @@ class CartItemController extends Controller
     {
         if (auth()->check()) {
             $carts = CartItem::where('user_id', auth()->id())->with('product')->get();
-            dd($carts);
+            return view("cart", ["carts" => $carts]);
         }
     }
 
@@ -34,8 +34,6 @@ class CartItemController extends Controller
                 ]);
             }
             return back();
-        } else {
-            dd('hit');
         }
     }
 }
