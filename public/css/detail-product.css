@@ -1,0 +1,54 @@
+.my-container {
+    position: relative;
+    width: 100%;
+}
+
+.mySlide {
+    display: none;
+    width: 100%;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.button:nth-child(1) {
+    left: 0;
+}
+
+.button:nth-child(2) {
+    right: 0;
+}
+
+.demo {
+  opacity: 0.6;
+  width: calc(100%/1);
+  display: flex;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.font {
+    font-size: 1.5rem;
+}
+
+.count {
+    display: inline-block;
+    border: 3px solid #cccccc;
+    border-radius: 5px;
+}
+        
+.my-button {
+    border: none;
+    background-color: transparent;
+
+}
