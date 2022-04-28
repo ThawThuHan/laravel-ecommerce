@@ -3,7 +3,7 @@
         <nav class="navbar navbar-light navbar-expand-lg bg-light">
             <div class="navbar-text">
                 <span class="">
-                    <a href="" class="navbar-brand">Ecommerce Site</a>
+                    <a href="/home" class="navbar-brand">Ecommerce Site</a>
                 </span>
             </div>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
@@ -19,10 +19,10 @@
                         <a href="" class="nav-link text-success">Categories</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link text-success">About</a>
+                        <a href="/about" class="nav-link text-success">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link text-success">Contact</a>
+                        <a href="/contact" class="nav-link text-success">Contact</a>
                     </li>
                 </ul>
                 <div class="mt-3 mt-lg-0">
