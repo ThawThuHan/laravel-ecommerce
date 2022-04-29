@@ -12,7 +12,7 @@
             <div class="invalid-feedback mb-3">
                 required
             </div>
-            <button class="btn btn-outline-dark rounded-pill" type="submit" style="transform: translate(-105%, 1%); width: 220px;">Subscribe Now!<i class="fa-solid fa-arrow-right ms-2"></i></button>
+            <button class="btn btn-dark rounded-pill" type="submit" style="transform: translate(-105%, 1%); width: 220px;">Subscribe Now!<i class="fa-solid fa-arrow-right ms-2"></i></button>
         </form>
     </div>
     <div class="d-flex flex-wrap justify-content-evenly mt-4">
@@ -22,11 +22,11 @@
     </div>
     <hr>
     <div class="d-flex flex-wrap justify-content-between">
-        <p><i class="fa-solid fa-copyright me-2"></i>All right reserved 2022</p>
+        <p><i class="fa-solid fa-copyright me-2 text-white"></i>All right reserved 2022</p>
         <div class="">
-            <a href="#" class="fa-brands fa-facebook fs-4 me-2 text-dark text-decoration-none"></a>
+            <a href="#" class="fa-brands fa-facebook fs-4 me-2 text-white text-decoration-none"></a>
             <a href="#" class="fa-brands fa-instagram fs-4 me-2 text-white text-decoration-none"></a>
-            <a href="#" class="fa-brands fa-twitter fs-4 me-2 text-dark text-decoration-none"></a>
+            <a href="#" class="fa-brands fa-twitter fs-4 me-2 text-white text-decoration-none"></a>
             <a href="#" class="fa-brands fa-youtube fs-4 me-2 text-white text-decoration-none"></a>
         </div>
     </div>

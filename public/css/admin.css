@@ -1,0 +1,45 @@
+.admin-box, .sidebar{
+    background-color: rgb(177, 223, 220);
+}
+
+.sidebar{
+    min-height: 100vh;
+}
+
+.sidebar-icon{
+    margin: 20px 0px;
+    padding-left: 10px;
+    color: rgb(114, 66, 8);
+    cursor: pointer;
+}
+.cursor{
+    cursor: pointer;
+}
+
+/* admin-home */
+.admin-container{
+    max-width: 100vw;
+}
+.product-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.modal-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.admin-form{
+    width: 70%
+}
+
+@media only screen and (max-width: 400px) {
+    .sidebar{
+        min-height: 70vh;
+    }
+    .admin-form{
+        width: 100%
+    }
+}
